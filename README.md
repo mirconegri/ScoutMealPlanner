@@ -68,7 +68,7 @@ Day 2:
 
 🛒 Shopping List 🛒
 
-`Bread               - 2000 g |
+`| Bread               - 2000 g |
 ``
 Nutella             - 700 g |
 ``
@@ -76,7 +76,7 @@ Milk                - 5000 ml |
 ``
 Pasta               - 1400 g |
 ``
-Rice                - 1200 g |
+| Rice                - 1200 g |
 ``
 Beans               - 1000 g |
 ``
