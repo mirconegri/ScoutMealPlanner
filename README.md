@@ -102,5 +102,5 @@ Meals are suitable for campfire cooking
 
 ##👤 Author
 
-[Mirco Negri]
+Mirco Negri
 GitHub: https://github.com/mirconegri
