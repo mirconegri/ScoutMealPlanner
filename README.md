@@ -67,31 +67,31 @@ Day 2:
 **Shopping List (shopping_list.txt)**
 
 🛒 Shopping List 🛒
+```
+| Bread               - 2000 g |
 
-`| Bread               - 2000 g |
-``
 Nutella             - 700 g |
-``
+
 Milk                - 5000 ml |
-``
+
 Pasta               - 1400 g |
-``
+
 | Rice                - 1200 g |
-``
+
 Beans               - 1000 g |
-``
+
 Sausages            - 1500 g |
-``
+
 Chicken             - 1600 g |
-``
+
 Peppers             - 700 g |
-``
+
 Zucchini            - 800 g |
-``
+
 Apples              - 2000 g |
-``
+
 Oranges             - 2000 g 
-`
+```
 
 ---
 
