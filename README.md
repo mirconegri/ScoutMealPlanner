@@ -67,7 +67,7 @@ Day 2:
 **Shopping List (shopping_list.txt)**
 
 🛒 Shopping List 🛒
-```
+
 | Bread               - 2000 g |
 
 Nutella             - 700 g |
@@ -91,7 +91,7 @@ Zucchini            - 800 g |
 Apples              - 2000 g |
 
 Oranges             - 2000 g 
-```
+
 
 ---
 
