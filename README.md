@@ -68,7 +68,7 @@ Day 2:
 
 🛒 Shopping List 🛒
 
-| Bread                - 2000 g |
+`| Bread                - 2000 g |
 Nutella              - 700 g |
 Milk                 - 5000 ml |
 Pasta                - 1400 g |
@@ -79,13 +79,13 @@ Chicken              - 1600 g |
 Peppers              - 700 g |
 Zucchini             - 800 g |
 Apples               - 2000 g |
-Oranges              - 2000 g |
+Oranges              - 2000 g |`
 
 ---
 
 ## 🛠️ Requirements
 
-Python 3.x
+`Python 3.x`
 No additional libraries needed
 
 ---
@@ -110,5 +110,5 @@ Meals are suitable for campfire cooking
 
 ## 👤 Author
 
-Mirco Negri
+`Mirco Negri`
 GitHub: https://github.com/mirconegri
