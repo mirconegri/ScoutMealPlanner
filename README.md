@@ -33,12 +33,10 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 git clone https://github.com/your-username/ScoutMealPlanner.git
 cd ScoutMealPlanner
 ```
-
 3. **Run the app:**
 ```
 python3 main.py
 ```
-
 4. **Follow the prompts:**
 - Enter the number of camp days
 - Enter the number of participants
@@ -47,6 +45,8 @@ python3 main.py
 - menu.txt → Daily menu
 - shopping_list.txt → Ingredients for all meals
 - shopping_list.csv → Shopping list in CSV format (easy to open in Excel/LibreOffice)
+
+---
 
 ## 📝 Example Output
 
@@ -81,10 +81,14 @@ Zucchini             - 800 g
 Apples               - 2000 g
 Oranges              - 2000 g
 
+---
+
 ## 🛠️ Requirements
 
 Python 3.x
 No additional libraries needed
+
+---
 
 ## 🎯 Purpose
 
@@ -93,6 +97,8 @@ Proper nutrition for active teens
 Simple, easy-to-cook meals
 Automatic shopping list generation
 
+---
+
 ## 📌 Notes
 
 Meals are randomized, so each run generates a different menu
@@ -100,7 +106,9 @@ Quantities are calculated per participant and per day
 Breakfast options: Nutella, jam, milk, or tea
 Meals are suitable for campfire cooking
 
-##👤 Author
+---
+
+## 👤 Author
 
 Mirco Negri
 GitHub: https://github.com/mirconegri
