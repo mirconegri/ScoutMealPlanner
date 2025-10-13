@@ -13,7 +13,6 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 - Quantities are adjusted for **active teenagers** (ages 16–18)  
 - Creates **shopping list** in both `.txt` and `.csv` format  
 - **Random menu** each time you run the program
-
 ---
 
 ## 📂 Files in the repo
