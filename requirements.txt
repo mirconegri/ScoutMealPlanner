@@ -1,1 +1,11 @@
+# ==========================
+# Scout Meal Planner - Requirements
+# ==========================
+# Recommended Python version: 3.10 or later
+
+# OpenAI API client for generating meal plans
+openai>=1.0.0
+
+# (Optional) Used for better terminal compatibility and cross-platform UI
+tk>=0.1.0
 
