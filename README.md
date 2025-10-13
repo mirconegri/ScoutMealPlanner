@@ -26,6 +26,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 ---
 
 ## ⚡ How to Use
+
 1. **Install Python 3** (if not already installed)
 2. **Clone the repository:**
 ```
