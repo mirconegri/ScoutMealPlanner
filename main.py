@@ -68,23 +68,25 @@ def save_results(menu, shopping_list):
     """
     Saves menu to menu.txt and shopping_list to shopping_list.txt and shopping_list.csv
     """
-    # Save menu.txt
-    with open("menu.txt", "w") as f:
+
+    # Save menu.txt with UTF-8 encoding
+    with open("menu.txt", "w", encoding="utf-8") as f:
         f.write("🏕️ Scout Camp Menu 🏕️\n\n")
         f.write("\n".join(menu))
 
-    # Save shopping_list.txt
-    with open("shopping_list.txt", "w") as f:
+    # Save shopping_list.txt with UTF-8 encoding
+    with open("shopping_list.txt", "w", encoding="utf-8") as f:
         f.write("🛒 Shopping List 🛒\n\n")
         for item, qty in shopping_list.items():
             f.write(f"{item.capitalize():<20} - {qty} g/ml\n")
 
-    # Save shopping_list.csv
-    with open("shopping_list.csv", "w", newline="") as csvfile:
+    # Save shopping_list.csv (UTF-8)
+    with open("shopping_list.csv", "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["Ingredient", "Quantity (g/ml)"])
         for item, qty in shopping_list.items():
             writer.writerow([item.capitalize(), qty])
+
 
 def main():
     print("🔥 Welcome to Scout Meal Planner 🔥")
