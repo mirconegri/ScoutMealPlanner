@@ -45,7 +45,7 @@ Wait for the project to load, then click Run
 1. **Install Python 3** (if not already installed)
 2. **Clone the repository:**
 ```
-git clone https://github.com/your-username/ScoutMealPlanner.git
+git clone https://github.com/mirconegri/ScoutMealPlanner.git
 cd ScoutMealPlanner
 ```
 3. **Run the app:**
