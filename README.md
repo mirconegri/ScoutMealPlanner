@@ -29,9 +29,9 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 You can run `ScoutMealPlanner` directly in your browser without installing anything using Replit
 How to run:
-1- Go to https://replit.com/
-2- Click “Create” → “Import from GitHub”
-Paste this repository link:
+- Go to https://replit.com/
+- Click “Create” → “Import from GitHub”
+- Paste this repository link:
 ```
 https://github.com/mirconegri/ScoutMealPlanner
 ```
