@@ -5,6 +5,16 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 ---
 
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/images/terminal.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/images/shopping_list.png) |
+|:--:|:--:|
+| **Terminal Interface** | **Generated Shopping List** |
+
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/images/menu.png) |
+|:--:|
+| **Weekly Menu Overview** |
+
+---
+
 ## 🍽️ Features
 
 - Generates **breakfast, lunch, and dinner** for each day of camp  
