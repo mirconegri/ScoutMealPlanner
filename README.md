@@ -10,7 +10,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 | **Terminal Interface** |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" height="300px" style="margin-right:10px;"/>
+  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" height="300px"/>
   <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/menu.png" height="300px"/>
 </p>
 
