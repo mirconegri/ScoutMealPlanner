@@ -10,13 +10,14 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 | **Terminal Interface** |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" width="48%" style="vertical-align: top;"/>
-  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/menu.png" width="48%" style="vertical-align: top;"/>
+  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" height="300px" style="margin-right:10px;"/>
+  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/menu.png" height="300px"/>
 </p>
 
 <p align="center">
   <b>Generated Shopping List</b> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <b>Weekly Menu Overview</b>
 </p>
+
 
 
 
