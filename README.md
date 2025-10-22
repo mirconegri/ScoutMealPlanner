@@ -20,18 +20,24 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 
 
+<h2 align="center"> Schreenshots </h2>
 
-| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot1.png) |
-|:--:|:--:|
-| **Main Interface** | **Genre Selection & Results** |
-
-| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot3.png) |
-|:--:|:--:|
-| **Scrollable Movie Grid** | **Hover & Poster View** |
-
-| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot4.png) |
-|:--:|
-| **Dark Netflix-Inspired UI** |
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Generated Shopping </b><br>
+    </td>
+    <td align="center">
+      <b>Weekly Menu Overview</b><br>
+    </td>
+  </tr>  
+      <td align="center">
+      <img src="screenshot/shopping_list.png" width="300">
+      </td>
+      <td align="center">
+      <img src="screenshot/menu.png" width="300">
+      </td>
+</table>
 
 
 ---
