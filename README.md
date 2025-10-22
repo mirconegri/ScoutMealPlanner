@@ -18,7 +18,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 <table align="center">
   <tr>
     <td align="center">
-      <b>Generated Shopping </b><br>
+      <b>Generated Shopping List</b><br>
     </td>
     <td align="center">
       <b>Weekly Menu Overview</b><br>
