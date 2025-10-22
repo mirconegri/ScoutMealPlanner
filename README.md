@@ -9,9 +9,9 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 |:--:|
 | **Terminal Interface** |
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" height="300px"/>
-  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/menu.png" height="300px"/>
+| <p align="center">
+  <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/shopping_list.png" height="300px"/>| 
+  | <img src="https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/menu.png" height="300px"/>| 
 </p>
 
 <p align="center">
@@ -21,6 +21,17 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 
 
+| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot0.png) | ![Screenshot 2](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot1.png) |
+|:--:|:--:|
+| **Main Interface** | **Genre Selection & Results** |
+
+| ![Screenshot 3](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot2.png) | ![Screenshot 4](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot3.png) |
+|:--:|:--:|
+| **Scrollable Movie Grid** | **Hover & Poster View** |
+
+| ![Screenshot 5](https://raw.githubusercontent.com/mirconegri/MovieRecommender/main/images/screenshot4.png) |
+|:--:|
+| **Dark Netflix-Inspired UI** |
 
 
 ---
