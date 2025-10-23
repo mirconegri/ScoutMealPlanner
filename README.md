@@ -1,4 +1,4 @@
-# 🏕️ Scout Meal Planner
+<img width="1440" height="960" alt="image" src="https://github.com/user-attachments/assets/61fed9eb-ef7d-4ee2-a704-89da933d0407" /># 🏕️ Scout Meal Planner
 
 A simple **Python app** to generate a **scout camp menu** and **shopping list** for **active teenagers (16-18 years old)**.  
 The app is designed for camps where cooking is done **on a campfire** — no ovens or complex recipes required.
@@ -34,7 +34,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
       <img src="screenshot/shopping_list.png" height="500px">
       </td>
       <td align="center">
-      <img src="screenshot/menu.png">
+      <img src="screenshot/menu.png" height="500px">
       </td>
 </table>
 
