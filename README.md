@@ -5,14 +5,6 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 ---
 
-| ![Screenshot 1](https://raw.githubusercontent.com/mirconegri/ScoutMealPlanner/main/screenshot/terminal.png) |
-|:--:|
-| **Terminal Interface** |
-
-
-
-
-
 <h2 align="center"> Schreenshots </h2>
 
 <table align="center">
@@ -23,7 +15,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
   </tr>  
    <tr>
       <td align="center">
-      <img src="screenshot/terminal.png" width="300">
+      <img src="screenshot/terminal.png">
       </td>
      <tr>
 </table>
