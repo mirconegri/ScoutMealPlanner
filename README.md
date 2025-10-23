@@ -75,7 +75,7 @@ Wait for the project to load, then click Run
 
 ---
 
-## ⚡ How to clone the repository locally and run
+## ⚡ How to clone the repository and run
 
 1. **Install Python 3** (if not already installed)
 2. **Clone the repository:**
