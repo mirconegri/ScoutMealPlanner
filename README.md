@@ -38,7 +38,6 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
       </td>
 </table>
 
-
 ---
 
 ## 🍽️ Features
