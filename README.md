@@ -5,7 +5,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
 
 ---
 
-<h2 align="center"> Schreenshots 📸</h2>
+## 📸 Schreenshots 
 
 <table align="center">
   <tr>
