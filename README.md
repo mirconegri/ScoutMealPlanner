@@ -15,7 +15,7 @@ The app is designed for camps where cooking is done **on a campfire** — no ove
   </tr>  
    <tr>
       <td align="center">
-      <img src="screenshot/terminal.png" width="700px">
+      <img src="screenshot/terminal.png" width="650px">
       </td>
      <tr>
 </table>
