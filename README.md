@@ -1,5 +1,7 @@
 ## 🏕️ Scout Meal Planner
 
+![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 A simple **Python app** to generate a **scout camp menu** and **shopping list** for **active teenagers (16-18 years old)**.  
 The app is designed for camps where cooking is done **on a campfire** — no ovens or complex recipes required.
 
