@@ -1,4 +1,4 @@
-## 🏕️ Scout Meal Planner
+# 🏕️ Scout Meal Planner
 
 ![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
