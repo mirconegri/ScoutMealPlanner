@@ -160,7 +160,15 @@ Meals are suitable for campfire cooking
 
 ---
 
+## 📜 License
+
+MIT License © 2025 Mirco Negri
+— see [LICENSE](LICENSE) file for details.
+
+---
+
 ## 👤 Author
 
 `Mirco Negri`
 GitHub: https://github.com/mirconegri
+
