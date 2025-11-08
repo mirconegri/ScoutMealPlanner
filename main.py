@@ -6,6 +6,7 @@ from collections import defaultdict
 from meals_data import base_meals, quantities
 import csv
 
+
 def generate_menu(days, people):
     """
     Generates the camp menu and shopping list
