@@ -94,9 +94,9 @@ python3 main.py
 - Enter the number of participants
 
 5. **Check the output files:**
-- menu.txt → Daily menu
-- shopping_list.txt → Ingredients for all meals
-- shopping_list.csv → Shopping list in CSV format (easy to open in Excel/LibreOffice)
+- `menu.txt` → Daily menu
+- `shopping_list.txt` → Ingredients for all meals
+- `shopping_list.csv` → Shopping list in CSV format (easy to open in Excel/LibreOffice)
 
 ---
 
@@ -155,14 +155,14 @@ Automatic shopping list generation
 
 Meals are randomized, so each run generates a different menu
 Quantities are calculated per participant and per day
-Breakfast options: Nutella, jam, milk, or tea
+Breakfast options: `Nutella`, `jam`, `milk`, or `tea`
 Meals are suitable for campfire cooking
 
 ---
 
 ## 📜 License
 
-MIT License © 2025 Mirco Negri
+MIT License © 2025 `Mirco Negri`
 — see [LICENSE](LICENSE) file for details.
 
 ---
