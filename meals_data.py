@@ -1,32 +1,45 @@
 # meals_data.py
 
+# Dizionario che contiene le opzioni base dei pasti.
+# Ogni chiave rappresenta una categoria di cibo
+# e il valore è una lista degli alimenti disponibili.
+
 base_meals = {
-    # Breakfast options
+    # Opzioni per la colazione
     "breakfast": ["bread with Nutella", "bread with jam", "tea with bread and jam"],
     
-    # Main meals
+    # Categoria dei carboidrati
     "carbs": ["pasta", "rice", "bread", "couscous", "polenta"],
+    
+    # Categoria delle proteine
     "proteins": ["beans", "sausages", "eggs", "tuna", "cheese", "lentils", "chicken"],
+    
+    # Verdure disponibili
     "veggies": ["tomatoes", "peppers", "zucchini", "carrots", "onions", "peas"],
+    
+    # Frutta disponibile
     "fruits": ["apples", "bananas", "oranges", "pears", "melons"]
 }
 
-quantities = {
-    # Breakfast
-    "bread": 100,         # 1 large roll or 3-4 slices
-    "Nutella": 35,        # generously spread
-    "jam": 35,            # alternative to Nutella
-    "milk": 250,          # ml per person
-    "tea soluble": 5,     # 1 teaspoon per cup
+# Dizionario che definisce le quantità standard per persona
+# dei vari ingredienti, espresse in grammi (o ml se specificato).
 
-    # Carbohydrates
-    "pasta": 140,
+quantities = {
+    # Colazione
+    "bread": 100,         # grammi — 1 panino grande o 3-4 fette
+    "Nutella": 35,        # grammi — quantità da spalmare
+    "jam": 35,            # grammi — alternativa alla Nutella
+    "milk": 250,          # ml per persona
+    "tea soluble": 5,     # grammi — circa 1 cucchiaino
+
+    # Carboidrati
+    "pasta": 140,         # grammi a persona
     "rice": 120,
     "couscous": 100,
     "polenta": 120,
 
-    # Proteins
-    "beans": 100,
+    # Proteine
+    "beans": 100,         # grammi a persona
     "sausages": 150,
     "eggs": 100,
     "tuna": 100,
@@ -34,7 +47,7 @@ quantities = {
     "lentils": 100,
     "chicken": 160,
 
-    # Vegetables
+    # Verdure
     "tomatoes": 70,
     "peppers": 70,
     "zucchini": 80,
@@ -42,7 +55,7 @@ quantities = {
     "onions": 50,
     "peas": 70,
 
-    # Fruits
+    # Frutta
     "apples": 200,
     "bananas": 180,
     "oranges": 200,
