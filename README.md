@@ -137,7 +137,7 @@ Oranges              - 2000 g
 
 ## 🛠️ Requirements
 
-`Python 3.x`
+`Python 3.x` 
 No additional libraries needed
 
 ---
