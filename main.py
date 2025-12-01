@@ -20,7 +20,7 @@ def generate_menu(days, people):
         shopping_list (dict): dictionary with ingredients and total quantities
     """
     menu = []
-    shopping_list = defaultdict(int)  # initializes with default value = 0
+    shopping_list = defaultdict(int)  # initializes with default value = 0 
 
     for day in range(1, days + 1):
         # --- Breakfast selection ---
