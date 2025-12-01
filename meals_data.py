@@ -4,7 +4,7 @@
 # Ogni chiave rappresenta una categoria di cibo
 # e il valore è una lista degli alimenti disponibili.
 
-base_meals = {
+base_meals = { 
     # Opzioni per la colazione
     "breakfast": ["bread with Nutella", "bread with jam", "tea with bread and jam"],
     
