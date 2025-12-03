@@ -171,4 +171,3 @@ MIT License © 2025 `Mirco Negri`
 
 `Mirco Negri`
 GitHub: https://github.com/mirconegri
-
