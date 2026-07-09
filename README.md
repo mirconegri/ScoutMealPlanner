@@ -1,177 +1,109 @@
 # 🏕️ Scout Meal Planner
 
-[![PDF Merge](https://img.shields.io/badge/Language-python-blue?style=for-the-badge)](https://www.python.org/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-A simple **Python app** to generate a **scout camp menu** and **shopping list** for **active teenagers (16-18 years old)**.  
-The app is designed for camps where cooking is done **on a campfire** — no ovens or complex recipes required.
+A Python console application that generates a randomized multi-day camp menu — breakfast, lunch, dinner, and fruit — along with a scaled shopping list, designed for active teenagers (16–18) cooking over a campfire with no ovens or complex recipes required.
 
----
+## Table of Contents
 
-## 📸 Schreenshots 
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Configuration / Environment](#configuration--environment)
+- [Contributing](#contributing)
+- [License](#license)
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <b>Terminal Interface</b><br>
-    </td>
-  </tr>  
-   <tr>
-      <td align="center">
-      <img src="screenshot/terminal.png" width="650px">
-      </td>
-     <tr>
-</table>
+## Features
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <b>Shopping List</b><br>
-    </td>
-    <td align="center">
-      <b>Menu Overview</b><br>
-    </td>
-  </tr>  
-      <td align="center">
-      <img src="screenshot/shopping_list.png" height="500px">
-      </td>
-      <td align="center">
-      <img src="screenshot/menu.png" height="500px">
-      </td>
-</table>
+- Randomized breakfast selection (bread with Nutella, bread with jam, or tea with bread and jam), each with its own matching shopping-list entries
+- Randomized lunch and dinner combinations built from carbs, protein, and vegetables, plus two fruit choices per day
+- Per-person quantities (grams/ml) defined per ingredient, automatically scaled by the number of participants
+- Generates three output files per run: a readable menu, a formatted shopping list, and a CSV version for spreadsheets
+- A fresh, different menu is produced on every run
+- No external dependencies — built entirely on the Python standard library
 
----
+## Tech Stack
 
-## 🍽️ Features
+- **Language:** Python 3.x
+- **Standard library modules used:** `random`, `collections.defaultdict`, `csv`
 
-- Generates **breakfast, lunch, and dinner** for each day of camp  
-- Breakfast includes **bread with Nutella or jam + milk or tea**  
-- Lunch and dinner are **simple meals**: carbs + protein + vegetables + fruits  
-- Quantities are adjusted for **active teenagers** (ages 16–18)  
-- Creates **shopping list** in both `.txt` and `.csv` format  
-- **Random menu** each time you run the program
+> This project has no third-party runtime dependencies. Everything needed to run it ships with a standard Python installation.
 
----
+## Getting Started
 
-## 📂 Files in the repo
+### Prerequisites
 
-- `main.py` → Main program to generate menu and shopping list  
-- `meals_data.py` → Ingredients and quantities  
-- `requirements.txt` → No external libraries required  
-- `README.md` → This file  
+- Python 3.x
 
----
+### Installation
 
-## 🚀 Try the Program Online
-
-You can run `ScoutMealPlanner` directly in your browser without installing anything using Replit
-How to run:
-- Go to https://replit.com/
-- Click “Create” → “Import from GitHub”
-- Paste this repository link:
-```
-https://github.com/mirconegri/ScoutMealPlanner
-```
-Wait for the project to load, then click Run
-✅ The program will start online, and you can interact with it (enter input, view output, etc.).
-
----
-
-## ⚡ How to clone the repository and run
-
-1. **Install Python 3** (if not already installed)
-2. **Clone the repository:**
-```
+```bash
 git clone https://github.com/mirconegri/ScoutMealPlanner.git
 cd ScoutMealPlanner
 ```
-3. **Run the app:**
-```
+
+No further installation steps are required — there are no packages to install.
+
+### Run Online (No Installation)
+
+You can also run the project directly in your browser via Replit:
+
+1. Go to [replit.com](https://replit.com/)
+2. Click **Create** → **Import from GitHub**
+3. Paste the repository URL: `https://github.com/mirconegri/ScoutMealPlanner`
+4. Click **Run** and interact with the program directly in the browser console
+
+## Usage
+
+```bash
 python3 main.py
 ```
-4. **Follow the prompts:**
-- Enter the number of camp days
-- Enter the number of participants
 
-5. **Check the output files:**
-- `menu.txt` → Daily menu
-- `shopping_list.txt` → Ingredients for all meals
-- `shopping_list.csv` → Shopping list in CSV format (easy to open in Excel/LibreOffice)
+You'll be prompted for two values:
 
----
+```
+🔥 Welcome to Scout Meal Planner 🔥
+Enter number of camp days: 3
+Enter number of participants: 12
+```
 
-## 📝 Example Output
+The script then generates three files in the current directory:
 
-**Menu (menu.txt)**
+| File | Description |
+|---|---|
+| `menu.txt` | Human-readable daily menu (breakfast, lunch, dinner, fruits) |
+| `shopping_list.txt` | Aggregated ingredient list with total quantities |
+| `shopping_list.csv` | Same shopping list, formatted for Excel/LibreOffice |
 
+Example excerpt from `menu.txt`:
+
+```
 Day 1:
   🍞 Breakfast: bread with Nutella
   🍽️ Lunch: Pasta with tuna and peppers
   🍽️ Dinner: Rice with sausages and zucchini
   🍎 Fruits: Apples, Oranges
+```
 
-Day 2:
-  🍞 Breakfast: tea with bread and jam
-  🍽️ Lunch: Couscous with beans and carrots
-  🍽️ Dinner: Polenta with chicken and peas
-  🍎 Fruits: Bananas, Pears
+## Configuration / Environment
 
-**Shopping List (shopping_list.txt)**
+This project requires no environment variables or configuration files. All parameters (camp days, participants) are provided interactively via terminal input at runtime.
 
-🛒 Shopping List 🛒
+## Contributing
 
-Bread                - 2000 g
-Nutella              - 700 g
-Milk                 - 5000 ml
-Pasta                - 1400 g
-Rice                 - 1200 g
-Beans                - 1000 g
-Sausages             - 1500 g
-Chicken              - 1600 g
-Peppers              - 700 g
-Zucchini             - 800 g
-Apples               - 2000 g
-Oranges              - 2000 g
+Contributions are welcome! To propose a change:
 
----
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes with a clear message
+4. Open a Pull Request
 
-## 🛠️ Requirements
+Found a bug or have an idea (e.g. new meal templates)? Open an [Issue](https://github.com/mirconegri/ScoutMealPlanner/issues).
 
-`Python 3.x` 
-No additional libraries needed
+## License
 
----
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-## 🎯 Purpose
-
-This app is perfect for scout leaders or anyone organizing a camp for teenagers. It ensures:
-Proper nutrition for active teens
-Simple, easy-to-cook meals
-Automatic shopping list generation
-
----
-
-## 📌 Notes
-
-Meals are randomized, so each run generates a different menu
-Quantities are calculated per participant and per day
-Breakfast options: `Nutella`, `jam`, `milk`, or `tea`
-Meals are suitable for campfire cooking
-
----
-
-### 👤 Author & Connect
-
-**Mirco Negri** — *Computer Science Student @ UniTrento*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
-
-### 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-<br>
-© 2026 Mirco Negri
+© 2025 Mirco Negri
