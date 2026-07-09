@@ -7,6 +7,7 @@ A Python console application that generates a randomized multi-day camp menu —
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -14,6 +15,16 @@ A Python console application that generates a randomized multi-day camp menu —
 - [Configuration / Environment](#configuration--environment)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Preview
+
+**Terminal Interface**
+
+<p align="center"><img src="screenshot/terminal.png" width="650px"></p>
+
+| Shopping List | Menu Overview |
+|:---:|:---:|
+| <img src="screenshot/shopping_list.png" height="500px"> | <img src="screenshot/menu.png" height="500px"> |
 
 ## Features
 
