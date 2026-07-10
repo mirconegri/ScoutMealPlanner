@@ -10,9 +10,10 @@ A Python console application that generates a randomized multi-day camp menu —
 - [Preview](#preview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Configuration / Environment](#configuration--environment)
+- [Configuration and Environment](#configuration-and-environment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -42,6 +43,23 @@ A Python console application that generates a randomized multi-day camp menu —
 
 > This project has no third-party runtime dependencies. Everything needed to run it ships with a standard Python installation.
 
+## Project Structure
+
+```
+ScoutMealPlanner/
+├── main.py              # Entry point — menu/shopping-list generation and file output
+├── meals_data.py        # Ingredient options and per-person quantities
+├── requirements.txt
+├── screenshot/
+│   ├── terminal.png
+│   ├── shopping_list.png
+│   └── menu.png
+├── README.md
+└── LICENSE
+```
+
+> **Note:** running `main.py` also produces `menu.txt`, `shopping_list.txt`, and `shopping_list.csv` in the project root — these are generated at runtime and are not part of the committed repository structure.
+
 ## Getting Started
 
 ### Prerequisites
@@ -57,7 +75,7 @@ cd ScoutMealPlanner
 
 No further installation steps are required — there are no packages to install.
 
-### Run Online (No Installation)
+#### Run Online (No Installation)
 
 You can also run the project directly in your browser via Replit:
 
@@ -98,7 +116,7 @@ Day 1:
   🍎 Fruits: Apples, Oranges
 ```
 
-## Configuration / Environment
+## Configuration and Environment
 
 This project requires no environment variables or configuration files. All parameters (camp days, participants) are provided interactively via terminal input at runtime.
 
@@ -113,8 +131,19 @@ Contributions are welcome! To propose a change:
 
 Found a bug or have an idea (e.g. new meal templates)? Open an [Issue](https://github.com/mirconegri/ScoutMealPlanner/issues).
 
+### 👤 Author & Connect
+
+**Mirco Negri** — *Computer Science Student @ UniTrento*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-00599C?style=for-the-badge&logo=globe&logoColor=white)](https://mirconegri.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirconegri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mirco-negri-263810225)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mirconegri06@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mirco_negri_?igsh=MWtlbXY0a3R4NTJmNA==)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/172rhaPCUK/)
+
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-© 2025 Mirco Negri
+<br>
+© 2026 Mirco Negri
