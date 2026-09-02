@@ -3,6 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+> 🌐 **<a href="https://scoutmealplanner.mirconegri.com" target="_blank">Visit the project website</a>**
+
 A Python console application that generates a randomized multi-day camp menu and a fully scaled shopping list, designed for scout groups cooking over a campfire with no oven or complex equipment.
 
 Replaces a manual spreadsheet process that previously required roughly two hours of planning per trip. Enter headcount and number of days; get a complete, print-ready menu and shopping list in seconds.
